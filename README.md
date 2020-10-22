@@ -1,6 +1,6 @@
 # instagram
 
-A Social Media app
+A Social Media clone app
 
 ## Getting Started
 
