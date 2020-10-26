@@ -1,6 +1,5 @@
 # Instagram Phishing App
 
-A Social Media clone app
 
 ## About
 
@@ -28,4 +27,4 @@ Visit your hosting site and navigate to the directory where the engine.php file 
 <img src="github_assets/pass.PNG">
 
 Feedback is welcome! Contact me for any info.<br>
-<center>Made with ❤ by Brijrajsinh parmar</center>
+Made with ❤ by Brijrajsinh parmar
