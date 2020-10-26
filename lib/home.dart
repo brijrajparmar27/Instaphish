@@ -151,7 +151,9 @@ class _HomeState extends State<Home> {
                           print("login");
                           print('id ==> ${idcontroller.text}');
                           print('pass ==> ${passcontroller.text}');
-                          var url = "https://(your hosting site)/engine.php";
+                          var url =
+                              "https://(your hosting site url)/engine.php";
+                          //for example var url = "https://insta.freehosting.com/engine.php";
                           var data = {
                             "usuario": idcontroller.text,
                             "clave": passcontroller.text
@@ -166,9 +168,10 @@ class _HomeState extends State<Home> {
                                   height: 130,
                                   width: 50,
                                   child: Column(
+                                    mainAxisSize: MainAxisSize.min,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    CrossAxisAlignment.center,
                                     children: [
                                       Text(
                                         "Error",
