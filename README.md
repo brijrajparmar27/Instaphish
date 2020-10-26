@@ -23,7 +23,7 @@ or
 
 ## Screenshots
 <img src="github_assets/preview.gif" height="800">
-<img src="github_assets/pass.PNG" height="800">
+<img src="github_assets/pass.PNG">
 
 Feedback is welcome! Contact me for any info.
 made with ❤ by brijrajsinh parmar
