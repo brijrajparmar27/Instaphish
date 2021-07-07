@@ -1,9 +1,11 @@
 # Instagram Phishing App
 
+<img src="assets/instaphish.png" align="right" height="120px" />
 
 ## About
 
 This project is a starting point for a Flutter based Instagram Phishing App.
+
 
 ## Structure
 
